@@ -1,8 +1,8 @@
 
 # Rohan Pereira's Coding Challenge for MeBank
-This application aims to create summaries for financial transactions. Namely the total balance of debit and negative transactions for a given account number. The transactions are filtered by a date range and whether the transaction is payment transaction or a reversal.
+This application aims to create summaries for financial transactions, namely the total balance of debit and credit transactions for a given account number. The transactions are filtered by a date range and whether the transaction is payment transaction or a reversal.
 
-Two areas that I focussed on for this application was 
+Two areas that I focussed on for this application were 
 
  - Readablity: The code should be readable by non-technical users
  - Reusability: I used a lot of static methods and kept the methods as concise as possible for future changes to scope and to make it easy to scale the app.
@@ -16,7 +16,7 @@ Two areas that I focussed on for this application was
 <ul>
 <li>Application Java contains test runner</li>
 <li>Transactions.csv contains the csv data for transactions</li>
-<li>TransactionImporterService.java maps the csv data to list of Transaction objects</li>
+<li>TransactionImporterService.java maps the csv data to a POJO list of Transaction objects</li>
 <li>TransactionAnalyserService.java summaries balances of the transactions with filtering logic</li>
 </ul>
 
